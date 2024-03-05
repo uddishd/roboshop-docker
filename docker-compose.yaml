@@ -24,7 +24,7 @@ services:
 
   redis:
     image: redis
-    
+
   user:
     image: user:1
     depends_on:
